@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: blueprint
+  main:
+    banner_mode: 'OFF'
+  aop:
+    enabled: true
+
+management:
+  security:
+    enabled: false
+  contextPath: "/-"
+  port: 7090
+
+metrics:
+  prometheus:
+    enabled: true
+
+endpoints:
+  prometheus:
+    enabled: true
